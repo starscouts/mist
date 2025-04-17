@@ -1,0 +1,8 @@
+{
+  "main": "main.js",
+  "dependencies": {
+    "@xhayper/discord-rpc": "^1.0.24",
+    "electron": "^27.0.2",
+    "electron-packager": "^17.1.2"
+  }
+}

@@ -1,0 +1,153 @@
+@media (prefers-color-scheme: dark) {
+    body.web, body.navigation-body, #loading, div#player.bg-white {
+        background-color: #222 !important;
+    }
+
+    body.native #lyrics-page {
+        top: calc(65px + var(--android-status-bar)) !important;
+        background-color: black !important;
+    }
+
+    iframe#lyrics-page.mobile-show {
+        background-color: transparent !important;
+    }
+
+    .crossplatform {
+        background-color: black !important;
+    }
+
+    .track:hover {
+        background-color: #151515 !important;
+    }
+
+    body {
+        color: white !important;
+    }
+
+    .icon {
+        filter: brightness(0%) invert(1) grayscale(1) !important;
+    }
+
+    div.navigation-item.active, div.navigation-item:active {
+        background-color: rgba(255, 255, 255, .25) !important;
+    }
+
+    .navigation-item:hover {
+        background-color: rgba(255, 255, 255, .1) !important;
+    }
+
+    .album:hover {
+        background-color: rgba(255, 255, 255, .1) !important;
+    }
+
+    #player.bg-white {
+        background-color: black !important;
+    }
+
+    iframe#player {
+        border-bottom-color: rgba(255, 255, 255, .25) !important;
+    }
+
+    .player-btn:hover {
+        background-color: rgba(255, 255, 255, .1) !important;
+    }
+
+    .player-btn:active {
+        background-color: rgba(255, 255, 255, .25) !important;
+    }
+
+    .dropdown-menu {
+        filter: invert(1) hue-rotate(180deg);
+    }
+
+    .dropdown-item:hover {
+        background-color: rgba(0, 0, 0, .25);
+    }
+
+    .desktop-player #album-art[src="/assets/nothing.svg"] {
+        filter: invert(1);
+        background-color: rgba(0, 0, 0, .1);
+    }
+
+    .desktop-player #cover, .desktop-player #info {
+        border-color: rgba(255, 255, 255, .25) !important;
+    }
+
+    .text-muted {
+        color: #aaa !important;
+    }
+
+    #favorites-user-select {
+        filter: invert(1) !important;
+    }
+
+    #filter, #search, .btn, .form-check-input, .link, .btn-close {
+        filter: invert(1) hue-rotate(180deg);
+    }
+
+    .list-group-item .icon {
+        filter: invert(1) !important;
+    }
+
+    .list-group-item {
+        background: #050505;
+        color: white;
+        border-color: #333;
+    }
+
+    .dropdown-menu.show {
+        z-index: 999999 !important;
+    }
+
+    .desktop-player #seekbar-container {
+        background-color: rgba(255, 255, 255, .1) !important;
+    }
+
+    .desktop-player #seekbar {
+        background-color: rgba(255, 255, 255, .25) !important;
+    }
+
+    #lyrics-synced-fade {
+        background-image: linear-gradient(rgba(0, 0, 0, 0) 25%, rgb(0, 0, 0) 100%) !important;
+    }
+
+    #badge-hires .player-badge-desktop, #badge-cd .player-badge-desktop, #badge-lossy .player-badge-desktop {
+        background-color: black !important;
+    }
+
+    #lyrics-outer #loading {
+        background-color: transparent !important;
+    }
+
+    body.web {
+        background-color: black !important;
+    }
+
+    .dropdown-item img {
+        filter: none !important;
+    }
+
+
+    .modal-header {
+        border-bottom: 1px solid #353738;
+    }
+
+    .modal-content {
+        border: 1px solid rgba(255, 255, 255, .2);
+        background-color: #111;
+    }
+
+    .list-group-item-action:hover {
+        color: inherit;
+        background-color: #151515;
+    }
+
+    .list-group-item-action:active {
+        color: inherit;
+        background-color: #252525;
+    }
+
+    #ui-navigation {
+        background-color: rgba(0, 0, 0, .5) !important;
+    }
+}

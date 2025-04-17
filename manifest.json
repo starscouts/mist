@@ -1,0 +1,122 @@
+{
+  "name": "Equestria.dev Mist",
+  "short_name": "Mist",
+  "description": "A music platform without compromises",
+  "start_url": "/app/",
+  "display": "standalone",
+  "background_color": "#7AC3F5",
+  "theme_color": "#7AC3F5",
+  "orientation": "portrait-primary",
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  },
+  "protocol_handlers": [
+    {
+      "protocol": "web+mist",
+      "url": "/app/protocol.php?q=%s"
+    }
+  ],
+  "scope": "/app/",
+  "icons": [
+    {
+      "src": "/icons/normal_64x64.png",
+      "type": "image/png", "sizes": "64x64",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/normal_72x72.png",
+      "type": "image/png", "sizes": "72x72",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/normal_96x96.png",
+      "type": "image/png", "sizes": "96x96",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/normal_128x128.png",
+      "type": "image/png","sizes": "128x128",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/normal_144x144.png",
+      "type": "image/png", "sizes": "144x144",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/normal_152x152.png",
+      "type": "image/png", "sizes": "152x152",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/normal_192x192.png",
+      "type": "image/png", "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/normal_256x256.png",
+      "type": "image/png", "sizes": "256x256",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/normal_384x384.png",
+      "type": "image/png", "sizes": "384x384",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/normal_512x512.png",
+      "type": "image/png", "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/maskable_64x64.png",
+      "type": "image/png", "sizes": "64x64",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/maskable_72x72.png",
+      "type": "image/png", "sizes": "72x72",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/maskable_96x96.png",
+      "type": "image/png", "sizes": "96x96",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/maskable_128x128.png",
+      "type": "image/png","sizes": "128x128",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/maskable_144x144.png",
+      "type": "image/png", "sizes": "144x144",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/maskable_152x152.png",
+      "type": "image/png", "sizes": "152x152",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/maskable_192x192.png",
+      "type": "image/png", "sizes": "192x192",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/maskable_256x256.png",
+      "type": "image/png", "sizes": "256x256",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/maskable_384x384.png",
+      "type": "image/png", "sizes": "384x384",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/maskable_512x512.png",
+      "type": "image/png", "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ]
+}

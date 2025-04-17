@@ -1,0 +1,1 @@
+<?php header("X-Frame-Options: DENY"); header("Location: /oauth/init/") and die();
